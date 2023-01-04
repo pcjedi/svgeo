@@ -3,3 +3,20 @@
 
 ![Alt text](test.svg?sanitize=true)
 <img src="test.svg?sanitize=true">
+
+@sample.svg
+<svg width="500" height="250">
+    <defs>
+        <clipPath id="circleView">
+            <circle cx="250" cy="125" r="125" fill="#FFFFFF" />
+        </clipPath>
+    </defs>
+    <image 
+      width="500" 
+      height="250" 
+      xlink:href="https://www.amrita.edu/sites/default/files/news-images/new/news-events/images/l-nov/grass.jpg" 
+      clip-path="url(#circleView)"
+    />
+ </svg>
+ @sample.svg
+ 
